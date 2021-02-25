@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+}
+/* body */
+body{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+/* header */
+header{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+/* contenitore header */
+header .titolo{
+  width: 100%;
+  height: 95px;
+  background-color: rgb(229, 121, 230);
+  margin-bottom: 20px;
+}
+
+header .sottotitolo-img{
+  width: 100%;
+  height: 350px;
+  background-color: rgb(225, 214, 122);
+  margin-bottom: 20px;
+}
+/* main */
+main{
+  width: 100%;
+  height: 450px;
+  background-color: rgb(0, 134, 255);
+  margin-bottom: 7px;
+  padding-bottom: 15px;
+}
+/* contenitore main */
+main .intestazione{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(171, 207, 231);
+  margin-bottom: 15px;
+}
+
+main .img-donna{
+  width: 20%;
+  height: 370px;
+}
+
+main .img-uomo{
+  width: 56%;
+  height: 370px;
+  margin: 0 2% 15px;
+}
+
+main .img-lampadina{
+  width: 20%;
+  height: 370px;
+  margin-bottom: 15px;
+}
+
+main .img-donna,
+main .img-uomo,
+main .img-lampadina{
+  float: left;
+  background-color: rgb(171, 207, 231);
+}
+/* footer */
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(136, 1, 254);
+  margin-bottom: 20px;
+}
